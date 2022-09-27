@@ -112,7 +112,7 @@ public class DefaultConfig {
         if (url.contains("=http") || url.contains("=https") || url.contains("=https%3a%2f") || url.contains("=http%3a%2f") || url.contains(".js") || url.contains(".css")) {
             return false;
         }
-        return false;
+        return true;
     }
 
 
